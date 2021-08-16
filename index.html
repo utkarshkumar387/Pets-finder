@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/mainStyles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title>My pet</title>
+</head>
+
+<body>
+    <div class="pets">
+        <div class="pets__heading">
+            <h2 id="myPets">My Pets</h2>
+        </div>
+        <div class="pets__search">
+            <label>
+                <input type="text" placeholder="Search pets" id="searchPetsValue" />
+                <i class="fas fa-search" id="searchPetsButton"></i>
+            </label>
+        </div>
+        <div class="pets__sortAndFilters">
+            <div class="pets__filters--buttons">
+                <div class="pets__button">
+                    <i class="fas fa-sliders-h"></i>
+                    filters
+                </div>
+                <div class="pets__button" id="lessThanOneMonth">
+                    Less than 1 Month Old
+                </div>
+                <div class="pets__button" id="moreThanOneMonth">
+                    More than 1 Month Old
+                </div>
+            </div>
+            <div class="pets__sort--buttons">
+                <div class="pets__button">
+                    <i class="fas fa-sort"></i>
+                    Sort by age
+                </div>
+                <div class="pets__sort--options">
+                    <a id="sortByNewToOld" href="#">New to Old</a>
+                    <a id="sortByOldToNew" href="#">Old to New</a>
+                </div>
+            </div>
+        </div>
+        <div class="pets__cards" id="petsCards"></div>
+        <div class="pets__pagination" id="petsPagination">
+            <button id="prevButton">Prev</button>
+            <button id="nextButton">Next</button>
+        </div>
+    </div>
+</body>
+<script type="application/javascript" src="./js/mainFunctions.js"></script>
+
+</html>
