@@ -12,14 +12,13 @@ It is an web app to help you find your lost pet.
 
 ## Folder Structure
 
-|-- Pets-finder
-|    |-- css
-|    |    |-- mainStyles.css
-|    |-- js
-|    |    |-- amainFunctions.js
-|    |-- index.html
-   
-  
+├── Pets-finder
+│   ├── css
+│   │   ├── mainStyles.css
+│   ├── js
+|   |   ├── mainFunctions.css 
+│   ├── index.html
+
 ## Tech Stack
 
 HTML, CSS and Javascript
