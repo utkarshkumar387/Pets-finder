@@ -23,25 +23,23 @@
         </div>
         <div class="pets__sortAndFilters">
             <div class="pets__filters--buttons">
-                <div class="pets__button">
-                    <i class="fas fa-sliders-h"></i>
-                    filters
+                <div class="pets__sort--buttons">
+                    <div class="pets__button">
+                        <i class="fas fa-sort"></i>
+                        <p>Sort</p>
+                    </div>
+                    <div class="pets__sort--options">
+                        <a id="sortByNewToOld" href="#">New to Old</a>
+                        <a id="sortByOldToNew" href="#">Old to New</a>
+                    </div>
                 </div>
-                <div class="pets__button" id="lessThanOneMonth">
-                    Less than 1 Month Old
+                <div class="pets__button filter" id="lessThanOneMonth">
+                    <span>Less than</span><i class="fas fa-less-than"></i>
+                    1 Month Old
                 </div>
-                <div class="pets__button" id="moreThanOneMonth">
-                    More than 1 Month Old
-                </div>
-            </div>
-            <div class="pets__sort--buttons">
-                <div class="pets__button">
-                    <i class="fas fa-sort"></i>
-                    Sort by age
-                </div>
-                <div class="pets__sort--options">
-                    <a id="sortByNewToOld" href="#">New to Old</a>
-                    <a id="sortByOldToNew" href="#">Old to New</a>
+                <div class="pets__button filter" id="moreThanOneMonth">
+                    <span>More than</span><i class="fas fa-greater-than"></i>
+                    1 Month Old
                 </div>
             </div>
         </div>

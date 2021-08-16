@@ -26,6 +26,7 @@
 /*Pets search input*/
 .pets__search{
     border: 1px solid var(--grey);
+    border-radius: 5px;
     padding: var(--margin);
     margin-bottom: var(--margin);
 }
@@ -68,8 +69,8 @@
 .pets__button:hover{
     color: #000;
 }
-.pets__button i{
-    margin-right: 10px;
+.pets__button p{
+    margin-left: calc(var(--margin)/2);
 }
 
 /*card components*/
@@ -129,4 +130,21 @@
     display: block;
 }
 .pets__sort--buttons:hover .pets__sort--options {display: block;}
+
+.pets__filters--buttons .filter span, .pets__sort--buttons p{
+    display: inline-block;
+}
+.pets__filters--buttons .filter i{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .pets__filters--buttons .filter span, .pets__sort--buttons p{
+        display: none;
+    }
+    .pets__filters--buttons .filter i{
+        display: inline-block;
+        margin-right: calc(var(--margin)/2);
+    }
+}
 
