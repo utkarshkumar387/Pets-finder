@@ -11,12 +11,13 @@ It is an web app to help you find your lost pet.
 - You can sort the pets in the results using age
 
 ## Folder Structure
+
 |-- Pets-finder
-    |-- css
-        |-- mainStyles.css
-    |-- js
-        |-- amainFunctions.js
-    |-- index.html
+|    |-- css
+|    |    |-- mainStyles.css
+|    |-- js
+|    |    |-- amainFunctions.js
+|    |-- index.html
    
   
 ## Tech Stack
