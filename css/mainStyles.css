@@ -138,6 +138,7 @@
     display: none;
 }
 
+/* for screens upyo width 600px */
 @media screen and (max-width: 600px){
     .pets__filters--buttons .filter span, .pets__sort--buttons p{
         display: none;
