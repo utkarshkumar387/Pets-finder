@@ -1,7 +1,7 @@
 
 # Pets finder
 
-It is an web app to help you find your lost pet. 
+It is a web app to help you find your lost pet. 
 
 ## Features
 
@@ -13,6 +13,10 @@ It is an web app to help you find your lost pet.
 ## Tech Stack
 
 HTML, CSS and Javascript
+
+## Dependencies
+
+- [font-awesome](https://fontawesome.com/)
 
   
 ## Author
